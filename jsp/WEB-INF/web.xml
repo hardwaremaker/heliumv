@@ -45,6 +45,14 @@
   	<servlet-name>LogoutAllClientsServlet</servlet-name>
   	<servlet-class>com.lp.webapp.heliumv.LogoutAllClientsServlet</servlet-class>	
   </servlet>
+   
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>PhoneNumberServlet</display-name>
+  	<servlet-name>PhoneNumberServlet</servlet-name>
+  	<servlet-class>com.lp.webapp.heliumv.PhoneNumberServlet</servlet-class>	
+  </servlet>
     
   <servlet-mapping>
     <servlet-name>heliumv</servlet-name>
@@ -64,5 +72,11 @@
   	<servlet-name>LogoutAllClientsServlet</servlet-name>
   	<url-pattern>/LogoutAllClientsServlet</url-pattern>
   </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>PhoneNumberServlet</servlet-name>
+  	<url-pattern>/phonenumber</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
 
